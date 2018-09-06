@@ -97,7 +97,8 @@ TODOS
 				'ext-polygon.js',
 				'ext-star.js',
 				'ext-panning.js',
-				'ext-storage.js'
+				'ext-storage.js',
+				'ext-test.js'
 			],
 			defaultConfig = {
 				// Todo: svgcanvas.js also sets and checks: show_outside_canvas, selectNew; add here?
