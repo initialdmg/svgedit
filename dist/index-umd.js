@@ -10678,6 +10678,7 @@
     switch (elName) {
       case 'foreignObject':
       case 'rect':
+      case 'svg':
       case 'image':
         {
           // Allow images to be inverted (give them matrix when flipped)
@@ -11073,6 +11074,7 @@
         break;
       case 'foreignObject':
       case 'rect':
+      case 'svg':
       case 'image':
         attrs = ['width', 'height', 'x', 'y'];
         break;
