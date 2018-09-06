@@ -120,8 +120,8 @@ export default {
           const svgRect = svgCanvas.addSVGElementFromJson({
             element: 'rect',
             attr: {
-              x: x,
-              y: y,
+              x: 0,
+              y: 0,
               id: 'test-svg-rect',
               width: 8,
               height: 8,
